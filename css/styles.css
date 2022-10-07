@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* comentario en sass y css*/
+body {
+  background-color: #ECEEF3;
+  font-family: 'Shippori Antique B1', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Estilos de header */
+  /* Estilos de Main */
+  /* estilos de section */
+  /* estilos de footer */ }
+  body header {
+    align-items: center;
+    justify-content: center; }
+    body header img {
+      display: none;
+      width: 4rem;
+      height: 4rem;
+      margin-left: 0.1rem; }
+    body header h1 {
+      color: #ECEEF3;
+      padding: 1rem;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      background-color: #1C140D;
+      border-bottom: 4px solid #FA6900; }
+    body header nav {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      background-color: #ECEEF3 !important;
+      border-bottom: 1px solid #1C140D; }
+      body header nav ul {
+        display: flex;
+        list-style: none; }
+        body header nav ul li {
+          list-style: none;
+          margin: 0.5rem;
+          font-weight: bold;
+          font-size: 1.2rem;
+          display: inline-block;
+          margin: 1rem; }
+          body header nav ul li a {
+            text-decoration: none;
+            color: #1C140D;
+            padding: 0 0.7rem; }
+          body header nav ul li a:hover {
+            background-color: #FA6900;
+            border-radius: 0.6rem; }
+    body header div a {
+      display: block; }
+  body main {
+    margin-top: 0.5rem; }
+    body main div {
+      display: flex;
+      text-align: center;
+      margin: 0%;
+      align-items: center;
+      align-content: center; }
+    body main p {
+      text-align: center;
+      color: #ECEEF3;
+      background-color: #FA6900;
+      padding: 0.8rem;
+      letter-spacing: 0.02rem; }
+    body main .card {
+      display: flex;
+      justify-content: center; }
+    body main .contacto p {
+      display: flex;
+      padding: 1rem;
+      margin: 1rem;
+      align-items: center;
+      align-content: center;
+      background-color: #1C140D; }
+  body section {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    body section h2 {
+      font-size: 1.2rem;
+      letter-spacing: 0.01rem; }
+  body footer {
+    margin-top: auto; }
+    body footer p {
+      text-align: center;
+      color: #ECEEF3;
+      background-color: #1C140D;
+      padding: 0.3rem;
+      letter-spacing: 0.02rem;
+      font-size: 0.8rem; }
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  /* estilos de header */
+  header h1 {
+    display: none; }
+  header img {
+    display: block !important; } }
